@@ -40,6 +40,11 @@ app.post('/api/chat', async (request, response) => {
     response.json({ answer: result.output_text });
   } catch (error) {
     console.error(error);
+    if (error?.status === 401 || error?.code === 'invalid_api_key') {
+      return response.status(500).json({
+        error: 'Your OpenAI API key is invalid. Replace the value in .env with a new key, then restart Ethan.'
+      });
+    }
     response.status(500).json({ error: 'Something went wrong. Please try again.' });
   }
 });
