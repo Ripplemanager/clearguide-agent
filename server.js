@@ -28,7 +28,7 @@ app.post('/api/chat', async (request, response) => {
     const result = await openai.responses.create({
       model: 'gpt-4o-mini',
       instructions: [
-        'You are ClearGuide, a simple and patient AI agent.',
+        'You are Ethan, a simple and patient AI agent.',
         'Explain answers in plain language for a beginner.',
         'Use short paragraphs and small examples when helpful.',
         'If the question is unclear, ask one useful clarifying question.',
@@ -45,5 +45,5 @@ app.post('/api/chat', async (request, response) => {
 });
 
 app.listen(port, () => {
-  console.log(`ClearGuide is running at http://localhost:${port}`);
+  console.log(`Ethan is running at http://localhost:${port}`);
 });

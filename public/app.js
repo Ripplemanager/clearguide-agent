@@ -20,7 +20,7 @@ form.addEventListener('submit', async (event) => {
   addMessage('You', question, 'user-message');
   input.value = '';
   input.disabled = true;
-  const thinking = addMessage('ClearGuide', 'Thinking...', 'agent-message');
+  const thinking = addMessage('Ethan', 'Thinking...', 'agent-message');
 
   try {
     const response = await fetch('/api/chat', {

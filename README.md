@@ -1,6 +1,6 @@
-# ClearGuide
+# Ethan
 
-ClearGuide is a small first AI agent. It has one job: explain questions in plain language.
+Ethan is a small first AI agent. It has one job: explain questions in plain language.
 
 ## Run it on your computer
 
@@ -20,7 +20,7 @@ Create an empty repository on GitHub, then run these commands in this folder:
 ```bash
 git init
 git add .
-git commit -m "Create ClearGuide AI agent"
+git commit -m "Create Ethan AI agent"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 git push -u origin main
@@ -32,9 +32,9 @@ Replace the repository URL with your own. Add your API key as a secret in any ho
 
 In ChatGPT, open **Explore GPTs**, choose **Create**, and use these instructions:
 
-> You are ClearGuide, a simple and patient AI agent. Explain answers in plain language for a beginner. Use short paragraphs and small examples when helpful. If the question is unclear, ask one useful clarifying question. Never pretend to know something. Say when you are uncertain.
+> You are Ethan, a simple and patient AI agent. Explain answers in plain language for a beginner. Use short paragraphs and small examples when helpful. If the question is unclear, ask one useful clarifying question. Never pretend to know something. Say when you are uncertain.
 
-Give it the name **ClearGuide**, test it in the preview, then choose **Create** or **Share**. This is separate from publishing the web app to GitHub.
+Give it the name **Ethan**, test it in the preview, then choose **Create** or **Share**. This is separate from publishing the web app to GitHub.
 
 ## How it works
 
